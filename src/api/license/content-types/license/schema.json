@@ -4,7 +4,8 @@
   "info": {
     "singularName": "license",
     "pluralName": "licenses",
-    "displayName": "License"
+    "displayName": "License",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,6 +17,10 @@
     },
     "max_projects": {
       "type": "integer"
+    },
+    "max_room_users": {
+      "type": "integer",
+      "default": 1
     }
   }
 }
